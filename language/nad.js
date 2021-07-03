@@ -1,5 +1,5 @@
 exports.wait = () => {
-	return`*「❗」WAITING*`
+	return`*「❗」WAITING...*`
 }
 
 exports.succes = () => {
@@ -35,14 +35,14 @@ exports.baned = () => {
 }
 
 exports.premium = (prefix) => {
-	return`Lu Siapa? Fitur ini khusus user premium!
-Upgrade ke premium dulu bosku
-Jika minat hubungi owner ku
-Ketik : ${prefix}owner`
+	return`Who? This feature is only for premium users!
+Upgrade to premium first my boss
+If interested contact my owner
+Type : ${prefix}owner`
 }
 
 exports.rediregis = () => {
-	return`*You have verified -_-*`
+	return`*You have verified*`
 }
 
 exports.stikga = () => {
@@ -96,8 +96,8 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel)
 `}
  
 exports.limitend = (pushname, prefix) => {
-	return`*maaf ${pushname} limit hari ini habis*
-*Limit di reset setiap jam 24:00*
+	return`*Sorry ${pushname} Today's limit is over*
+*Limit is reset every 24:00 hours*
 
 \`\`\`Upgrade Premium Bebas Limit\`\`\`
 \`\`\`➸ 20K : 1 Bulan\`\`\`
@@ -109,9 +109,9 @@ exports.limitend = (pushname, prefix) => {
 exports.limitcount = (isPrem, limitCounts) => {
 	return`
 *「 LIMIT COUNT 」*
-sisa limit anda : ${isPrem ? '9999' : `${limitCounts}`}
+remaining your limit : ${isPrem ? '9999' : `${limitCounts}`}
 
-Upgrade premium bosku, biar bebas gunain bot`
+Upgrade premium my boss, let's be free to use bot`
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
@@ -125,33 +125,29 @@ exports.uangkau = (pushname, sender, uangkau) => {
 }
 
 exports.donasi = () => {
-return`*DONASI KAK*
+return`*DONATE*
 Pulsa : 0812-1444-1027
 Gopay : 0855-5924-0360
 Dana : 0855-5924-0360
 Saweria : https://saweria.co/ramlangans
 
-Donasi supaya bot terus update & Aktif`
+Donate to keep the bot updated & Active`
 }
 
 exports.iklan = (botName, ownerNumbers, ownerName) => {
 return`🔰 -----[ 「 *ADVERTISEMENT ${botName}* 」 ]----- 🔰
 ──────────────────────────────
-◯ *DAFTAR SEWA & BUAT BOT :*
-◯ *SEWA : 25K/GRUP (BULAN)*
-◯ *BUAT : 100K (BISA JADI OWNER)*
-◯ *PEMBAYARAN BISA MELALUI :*
-◯ *OVO, GOPAY, DANA, PULSA+10K*
+We Are D2SX Team [Panda]
 ──────────────────────────────
-◯ *KEUNTUNGAN SEWA BOT :*
-◯ *1. BISA MEMASUKAN BOT KE GROUP*
-◯ *2. BISA MENGGUNAKAN FITUR PREMIUM*
-◯ *KEUNTUNGAN BUAT BOT :*
-◯ *1. BISA MENJADI OWNER BOT SENDIRI*
-◯ *2. BISA MENGGANTI NAMA BOT SENDIRI*
-◯ *3. BISA MEMBAWA BOT KE GROUP*
-◯ *4. BISA MENGGUNAKAN COMMAND OWNER*
-◯ *5. BISA MENYEWAKAN BOT KEMBALI*
+* BENEFITS OF RENTING BOTS :*
+*1. CAN ADD BOTS TO GROUP*
+*2. CAN USE PREMIUM FEATURES*
+* ADVANTAGES FOR BOTS :*
+*1. CAN BECOME YOUR OWN BOTT OWNER*
+*2. CAN CHANGE YOUR OWN BOTT NAME*
+*3. CAN BRING BOT TO GROUP*
+*4. CAN USE THE COMMAND OWNER*
+*5. CAN RENT BOTS BACK*
 ──────────────────────────────
 ◯ *IF INTERESTED IN THE ABOVE*
 ◯ *PLEASE CALL THE NUMBER BELOW:*
