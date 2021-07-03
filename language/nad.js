@@ -1,9 +1,9 @@
 exports.wait = () => {
-	return`*「❗」WAIT KAK*`
+	return`*「❗」WAITING*`
 }
 
 exports.succes = () => {
-	return`*「 SUKSES 」*`
+	return`*「 SUCSESS 」*`
 }
 
 exports.lvlon = () => {
@@ -15,23 +15,23 @@ exports.lvloff = () => {
 }
 
 exports.lvlnul = () => {
-	return`*「❗」LEVELMU MASIH KOSONG*`
+	return`*「❗」YOUR LEVELS STILL EMPTY*`
 }
 
 exports.lvlnoon = () => {
-	return`*「❗」LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*「❗」THE GRUB LEVELS HAVE NOT BEEN ACTIVATED*`
 }
 
 exports.nsfwoff = () => {
-	return`*「❗」NSFW BELUM DI AKTIFKAN*`
+	return`*「❗」NSFW NOT ACTIVATED*`
 }
 
 exports.noregis = () => {
-	return`*「❗」BELUM VERIFIKASI「❗」*\n\nketik : @verify`
+	return`*「❗」NOT VERIFICATION「❗」*\n\ntype : @verify`
 }
 
 exports.baned = () => {
-	return`*「❗」SORRY SORRY AJA NIH BRO, TAPI KAU SUDAH KU BANNED YAHAHAHA HAYUUU :V*`
+	return`*「❗」SORRY SORRY BRO, BUT YOU'VE BEEN BANNED YAHAHAHA HAYUUU :V*`
 }
 
 exports.premium = (prefix) => {
@@ -42,15 +42,15 @@ Ketik : ${prefix}owner`
 }
 
 exports.rediregis = () => {
-	return`*Kamu sudah melakukan verify -_-*`
+	return`*You have verified -_-*`
 }
 
 exports.stikga = () => {
-	return`*「 GAGAL 」Coba reply/tag ulang kak*`
+	return`*「 FAILED 」 Try replying / re-tag sis*`
 }
 
 exports.linkga = () => {
-	return`*「❗」maaf linknya tidak valid kak*`
+	return`*「❗」sorry the link is not valid*`
 }
 
 exports.groupo = () => {
@@ -70,26 +70,27 @@ exports.admin = () => {
 }
 
 exports.badmin = () => {
-	return`*「❗」BOT HARUS JADI ADMIN*`
+	return`*「❗」BOTS MUST BE ADMIN*`
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi*`
+	return`*The problem has been reported to the BOT owner, fake reports will not be responded to*`
 }
 
 exports.wrongf = () => {
-	return`*「🗿」Teks nya mana kak?*`
+	return`*「🗿」Where's your text?*`
 }
 
 exports.clears = () => {
-	return`*Sukses bosku*`
+	return`*Success boss
+*`
 }
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
 *「 SELAMAT 」*
-\`\`\`➸ Nama : ${pushname}\`\`\`
-\`\`\`➸ Nomor : wa.me/${sender.split("@")[0]}\`\`\`
+\`\`\`➸ Name : ${pushname}\`\`\`
+\`\`\`➸ Number : wa.me/${sender.split("@")[0]}\`\`\`
 \`\`\`➸ Xp : ${getLevelingXp(sender)}\`\`\`
 \`\`\`➸ Level : ${getLevel} ➸ ${getLevelingLevel(sender)}\`\`\`
 `}
@@ -116,9 +117,9 @@ Upgrade premium bosku, biar bebas gunain bot`
 exports.uangkau = (pushname, sender, uangkau) => {
 	return`┏━━━━━━━♡ *ATM* ♡━━━━━━━┓
 ┃╭───────────────────
-┃│➸ NAMA : ${pushname}
-┃│➸ NOMOR : ${sender.split("@")[0]}
-┃│➸ UANG : ${uangkau}
+┃│➸ NAME : ${pushname}
+┃│➸ NUMBER : ${sender.split("@")[0]}
+┃│➸ PANDA : ${uangkau}
 ┃╰───────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛`
 }
@@ -134,7 +135,7 @@ Donasi supaya bot terus update & Aktif`
 }
 
 exports.iklan = (botName, ownerNumbers, ownerName) => {
-return`🔰 -----[ 「 *IKLAN ${botName}* 」 ]----- 🔰
+return`🔰 -----[ 「 *ADVERTISEMENT ${botName}* 」 ]----- 🔰
 ──────────────────────────────
 ◯ *DAFTAR SEWA & BUAT BOT :*
 ◯ *SEWA : 25K/GRUP (BULAN)*
@@ -152,8 +153,8 @@ return`🔰 -----[ 「 *IKLAN ${botName}* 」 ]----- 🔰
 ◯ *4. BISA MENGGUNAKAN COMMAND OWNER*
 ◯ *5. BISA MENYEWAKAN BOT KEMBALI*
 ──────────────────────────────
-◯ *JIKA MINAT IKLAN DIATAS*
-◯ *HARAP HUBUNGI NOMOR DIBAWAH :*
+◯ *IF INTERESTED IN THE ABOVE*
+◯ *PLEASE CALL THE NUMBER BELOW:*
 ◯ *wa.me/${ownerNumbers}*
 ──────────────────────────────
 🔰 -----[「 *POWERED BY ${ownerName}* 」]----- 🔰`
