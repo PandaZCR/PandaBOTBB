@@ -27,7 +27,7 @@ exports.nsfwoff = () => {
 }
 
 exports.noregis = () => {
-	return`*「❗」NOT VERIFICATION「❗」*\n\ntype : @verify`
+	return`*「❗」NOT VERIFICATION (PANDA)「❗」*\n\ntype : @verify`
 }
 
 exports.baned = () => {
